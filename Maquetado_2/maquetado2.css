@@ -1,0 +1,87 @@
+header {
+    height: 150px;
+    width: 90%; /* Ancho del 90% del contenedor padre */
+    background-color: #1E90FF; /* Color de fondo del encabezado (azul claro) */
+    margin: 0 auto; /* Centrar horizontalmente en el contenedor padre */
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio uniforme entre elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+    padding: 0 20px; /* Espaciado interno */
+}
+
+/* Estilos del banner */
+.banner {
+    width: 500px; /* Ancho del banner */
+    height: 120px; /* Altura del banner */
+    background-color: #87CEEB; /* Color de fondo del banner (azul claro) */
+}
+
+/* Estilos del logo */
+.rec_logo {
+    width: 230px; /* Ancho del logo */
+    height: 120px; /* Altura del logo */
+    background-color: #87CEEB; /* Color de fondo del logo (azul claro) */
+    text-align: center; /* Centrar el texto horizontalmente */
+    line-height: 120px; /* Altura de línea igual a la altura del logo */
+    display: block; /* Mostrar como bloque */
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    height: 50px; /* Altura de la barra de navegación */
+    width: 90%; /* Ancho del 90% del contenedor padre */
+    background-color: #800080; /* Color de fondo de la barra de navegación (púrpura) */
+    margin: 0 auto; /* Centrar horizontalmente en el contenedor padre */
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio uniforme entre elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+    padding: 0 20px; /* Espaciado interno */
+}
+
+/* Estilos del contenido principal */
+main {
+    height: auto; /* Altura automática */
+    width: 90%; /* Ancho del 90% del contenedor padre */
+    background-color: #9932CC; /* Color de fondo del contenido principal (púrpura oscuro) */
+    margin: 0 auto; /* Centrar horizontalmente en el contenedor padre */
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio uniforme entre elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+    padding: 0 20px; /* Espaciado interno */
+}
+
+article {
+    width: 450px; /* Ancho del artículo */
+    height: 300px;
+    background-color: #FFD700; /* Color de fondo del artículo (amarillo) */
+    margin: 0 10px; /* Margen externo */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto horizontalmente */
+    line-height: normal; /* Altura de línea normal */
+    display: flex; /* Usar flexbox para alinear elementos */
+    flex-direction: column; /* Apilar elementos en columna */
+    justify-content: space-between; /* Espacio uniforme entre elementos */
+    padding: 10px; /* Espaciado interno */
+}
+
+.aside-right {
+    order: 1;
+}
+
+aside {
+    width: 300px; /* Ancho del aside */
+    height: 300px; /* Altura del aside */
+    background-color: #FFD700; /* Color de fondo del aside (amarillo) */
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Estilos del pie de página */
+footer {
+    height: 50px; /* Altura del pie de página */
+    width: 90%; /* Ancho del 90% del contenedor padre */
+    background-color: #008000; /* Color de fondo del pie de página (verde oscuro) */
+    padding: 0 20px;
+    margin: 0 auto;
+}
