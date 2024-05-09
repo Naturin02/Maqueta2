@@ -1,7 +1,12 @@
+.banner {
+    width: 500px;
+    height: 120px;
+    background-color:
+}
 header {
     height: 150px;
     width: 90%; /* Ancho del 90% del contenedor padre */
-    background-color: #1E90FF; /* Color de fondo del encabezado (azul claro) */
+    background-color: #1E90FF;
     margin: 0 auto; /* Centrar horizontalmente en el contenedor padre */
     display: flex; /* Usar flexbox para alinear elementos */
     justify-content: space-between; /* Espacio uniforme entre elementos */
@@ -9,18 +14,10 @@ header {
     padding: 0 20px; /* Espaciado interno */
 }
 
-/* Estilos del banner */
-.banner {
-    width: 500px; /* Ancho del banner */
-    height: 120px; /* Altura del banner */
-    background-color: #87CEEB; /* Color de fondo del banner (azul claro) */
-}
-
-/* Estilos del logo */
 .rec_logo {
-    width: 230px; /* Ancho del logo */
-    height: 120px; /* Altura del logo */
-    background-color: #87CEEB; /* Color de fondo del logo (azul claro) */
+    width: 230px;
+    height: 120px;
+    background-color: #87CEEB;
     text-align: center; /* Centrar el texto horizontalmente */
     line-height: 120px; /* Altura de línea igual a la altura del logo */
     display: block; /* Mostrar como bloque */
@@ -30,7 +27,7 @@ header {
 nav {
     height: 50px; /* Altura de la barra de navegación */
     width: 90%; /* Ancho del 90% del contenedor padre */
-    background-color: #800080; /* Color de fondo de la barra de navegación (púrpura) */
+    background-color: #800080;
     margin: 0 auto; /* Centrar horizontalmente en el contenedor padre */
     display: flex; /* Usar flexbox para alinear elementos */
     justify-content: space-between; /* Espacio uniforme entre elementos */
@@ -38,36 +35,27 @@ nav {
     padding: 0 20px; /* Espaciado interno */
 }
 
-/* Estilos del contenido principal */
 main {
-    height: auto; /* Altura automática */
-    width: 90%; /* Ancho del 90% del contenedor padre */
-    background-color: #9932CC; /* Color de fondo del contenido principal (púrpura oscuro) */
+    height: auto;
+    width: 90%;
+    background-color: #9932CC;
     margin: 0 auto; /* Centrar horizontalmente en el contenedor padre */
     display: flex; /* Usar flexbox para alinear elementos */
     justify-content: space-between; /* Espacio uniforme entre elementos */
-    align-items: center; /* Centrar verticalmente los elementos */
     padding: 0 20px; /* Espaciado interno */
 }
 
 article {
-    width: 450px; /* Ancho del artículo */
+    width: 450px;
     height: 300px;
-    background-color: #FFD700; /* Color de fondo del artículo (amarillo) */
-    margin: 0 10px; /* Margen externo */
-    padding: 20px; /* Espaciado interno */
+    background-color: #FFD700;
+    padding: 20px; 
     text-align: center; /* Centrar el texto horizontalmente */
     line-height: normal; /* Altura de línea normal */
-    display: flex; /* Usar flexbox para alinear elementos */
-    flex-direction: column; /* Apilar elementos en columna */
+    display: flex; 
     justify-content: space-between; /* Espacio uniforme entre elementos */
     padding: 10px; /* Espaciado interno */
 }
-
-.aside-right {
-    order: 1;
-}
-
 aside {
     width: 300px; /* Ancho del aside */
     height: 300px; /* Altura del aside */
@@ -75,6 +63,7 @@ aside {
     text-align: center;
     justify-content: space-between;
     padding: 10px;
+    order: 1;
 }
 
 /* Estilos del pie de página */
